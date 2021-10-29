@@ -1,2 +1,2 @@
 # My Portfolio Page
-This web page is inteded to be a working archive of projects that I have worked on. with working links to any applicable applications or websites. It will also include contact information and resume.
+This web page is inteded to be a working archive of projects that I have worked on. with working links to any working applications or websites. It will also include contact information and resume.
