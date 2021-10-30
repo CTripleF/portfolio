@@ -119,43 +119,75 @@ header nav ul li a {
 /*GENERAL STYLE END*/
 
 /*PROJECT STYLE SECTION*/
-.container {
-  width: 100%;
-  margin: 0 auto;
+
+.main-project {
+  padding: 10px;
+  margin: auto;
+  border: 1px solid var(--light-neutral);
   display: flex;
-  justify-content: space-around;
+  min-width: 400px;
+  max-width: 600px;
+  min-height: 175px;
+  flex: 1 1 0;
+}
+
+.my-projects {
+  margin: 20px;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
-  align-content: center;
-  border: 1px, solid, var(--light-neutral);
 }
 
 .project {
-  margin: 20px;
-  min-width: 25%;
-  min-height: 100px;
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  flex: 1;
+  padding: 10px;
+  margin-bottom: 40px;
+  border: 1px solid var(--light-neutral);
+  display: flex;
+  min-width: 400px;
+  min-height: 175px;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  border: 1px, solid, var(--light-neutral);
 }
 
 .project h3 {
   color: var(--light-neutral);
   font-size: 28px;
-  flex: 1 30%;
-  background-color: var(--light-bg);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   width: max-content;
   position: relative;
+}
 
+.project div {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
 }
 
 .run-buddy{
   background-image: url(../images/run-buddy.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+.robot-gladiator {
+  background-image: url(../images/robots.jpg);
+}
+
+.pass-gen {
+  background-image: url(../images/passwords.jpg);
+}
+
+.led-wall {
+  background-image: url(../images/led-wall.jpg);
+}
+
+.pastel-puzzle {
+  background-image: url(../images/puzzle-pieces.jpg);
+}
+
 /*PROJECT STYLE END*/
 
 /* Style all font awesome icons */
