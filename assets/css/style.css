@@ -15,6 +15,7 @@
 body {
   background-color: var(--light-bg);
   font-family: Helvetica, Arial, sans-serif;
+  color: var(--light-neutral);
 }
 
 /* HEADER STYLE START */
@@ -27,10 +28,6 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  /*background-image: url("../images/hero-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: auto;*/
   z-index: 9999;
 }
 
@@ -75,6 +72,7 @@ header nav ul li a {
 }
 /*END HEADER STYLE*/
 
+/*HERO SECTION STYLE*/
 .hero div {
   height: 500px;
   width: 100%;
@@ -97,8 +95,7 @@ header nav ul li a {
 }
 /*END HERO SECTION*/
 
-/*GENERAL STYLE SECTION*/
-
+/*GENERAL STYLE*/
 .section-title {
   font-size: 48px;
   color: var(--highlight);
@@ -118,7 +115,37 @@ header nav ul li a {
 }
 /*GENERAL STYLE END*/
 
+/*ABOUT ME STYLE*/
+.my-intro p {
+  line-height: 1.7;
+  color: var(--tertiary-color);
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+/*ABOUT ME END*/
+
 /*PROJECT STYLE SECTION*/
+.my-projects h3 {
+  color: var(--highlight);
+  font-size: 28px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: max-content;
+  position: relative;
+}
+
+.my-projects span {
+  color: var(--highlight);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+
+.my-projects a {
+  text-decoration: none;
+}
+
+.my-projects a:hover {
+  opacity: 75%;
+}
 
 .main-project {
   padding: 10px;
@@ -129,9 +156,10 @@ header nav ul li a {
   max-width: 600px;
   min-height: 175px;
   flex: 1 1 0;
+  border-radius: 15%;
 }
 
-.my-projects {
+.secondary-projects {
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -149,14 +177,8 @@ header nav ul li a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.project h3 {
-  color: var(--light-neutral);
-  font-size: 28px;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: max-content;
-  position: relative;
+  background-position: top;
+  border-radius: 15%;
 }
 
 .project div {
@@ -187,10 +209,40 @@ header nav ul li a {
 .pastel-puzzle {
   background-image: url(../images/puzzle-pieces.jpg);
 }
-
 /*PROJECT STYLE END*/
 
-/* Style all font awesome icons */
+/*RESUME*/
+.my-resume {
+  text-align: center;
+}
+
+.my-resume a {
+  font-size: 20px;
+  color: var(--light-neutral);
+}
+
+.my-resume a:hover {
+  background-color: var(--highlight);
+  color: var(--dark-bg);
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+/*CONTACT SECTION*/
+.my-contact {
+  font-size: 20px;
+  text-align: center;
+}
+
+.my-contact a {
+  color: var(--light-neutral);
+}
+
+footer {
+  text-align: center;
+}
+
+/* STYLE FONT AWESOME LINKS */
 .fa {
   padding: 10px;
   font-size: 20px;
@@ -201,7 +253,7 @@ header nav ul li a {
   color: var(--light-neutral);
 }
 
-/* Add a hover */
+/* ADD HOVER TO FA LINKS */
 .fa:hover {
   opacity: 0.7;
 }
