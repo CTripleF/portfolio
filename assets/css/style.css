@@ -203,6 +203,18 @@ header nav ul li a {
   background-image: url(../images/passwords.jpg);
 }
 
+.idk-you-pick {
+  background-image: url(../images/idkyoupicksnip.PNG);
+}
+
+.idk-you-pick h3{
+  color: var(--dark-bg);
+}
+
+.idk-you-pick span{
+  color: var(--dark-bg);
+}
+
 .led-wall {
   background-image: url(../images/led-wall.jpg);
 }
