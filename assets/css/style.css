@@ -187,12 +187,15 @@ header nav ul li a {
   flex: 1 0 0;
   flex-direction: column;
 }
-
-.run-buddy{
-  background-image: url(../images/run-buddy.jpg);
+.LFG-The-Ocho {
+  background-image: url(../images/LFG-the-ocho.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.run-buddy{
+  background-image: url(../images/run-buddy.jpg);
 }
 
 .robot-gladiator {
